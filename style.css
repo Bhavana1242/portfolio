@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body
+{
+    padding: 0;
+    margin: 5px;
+}.navbar
+{
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar .container-fluid .navbar-nav .nav-link
+{
+    color: #263238;
+    padding: 5px 30px 5px 20px;
+}
+
+
+.navbar .collapse ul
+{
+    padding: 20px;
+
+}
+
+#home
+{
+    background-image: url(/img/CSBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #232525;
+    background-blend-mode: difference;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin: 10px auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+    
+
+#tech{
+    font-family: sans-serif,serif;
+    padding: 10px;
+    margin: 20px auto 20px;
+}
+#tech h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#tools{
+    padding: 10px;
+    margin: 20px auto 20px;
+}
+#tools h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact{
+    background-color: rgb(13, 2, 43);
+}
+
+
+
